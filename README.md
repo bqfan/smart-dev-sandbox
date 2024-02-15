@@ -41,7 +41,7 @@ you may also have to delete previous containers and volumes as described below.
 	``` 
 5. Start the Docker containers
 	```sh
-	docker-compose up
+	docker-compose up -d
 	```
 4. It might take some time to download all the images on the first run.
    After that, it probably takes a minute to start all the services. 
